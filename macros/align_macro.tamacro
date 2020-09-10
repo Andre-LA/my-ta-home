@@ -1,0 +1,7 @@
+return {
+{"keypress",65505,false,false,false,false,},
+{"keypress",65507,true,false,false,false,},
+{"keypress",65363,true,true,false,false,},
+{"keypress",65535,false,false,false,false,},
+{"keypress",65364,false,false,false,false,},
+}
