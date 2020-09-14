@@ -1,6 +1,6 @@
--- Base16 Theme: Ocean
+-- Base16 Theme: Eva
 -- http://chriskempson.com/projects/base16/
--- Theme author: Chris Kempson (http://chriskempson.com)
+-- Theme author: kjakapat (https://github.com/kjakapat)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 -- Base16 colors
-colors.base00 = 0x3b302b
-colors.base01 = 0x463d34
-colors.base02 = 0x665b4f
-colors.base03 = 0x7e7365
-colors.base04 = 0xbaada7
-colors.base05 = 0xcec5c0
-colors.base06 = 0xe8e1df
-colors.base07 = 0xf5f1ef
-colors.base08 = 0x6a61bf
-colors.base09 = 0x7087d0
-colors.base0A = 0x8bcbeb
-colors.base0B = 0x8cbea3
-colors.base0C = 0xb4b596
-colors.base0D = 0xb3a18f
-colors.base0E = 0xad8eb4
-colors.base0F = 0x6779ab
+colors.base00 = 0x4d3b2a
+colors.base01 = 0x6f563d
+colors.base02 = 0x88694b
+colors.base03 = 0x9c7955
+colors.base04 = 0xa3907e
+colors.base05 = 0xa6a29f
+colors.base06 = 0xd9d7d6
+colors.base07 = 0xffffff
+colors.base08 = 0x6c67c4
+colors.base09 = 0x6699ff
+colors.base0A = 0x66ffff
+colors.base0B = 0x66ff66
+colors.base0C = 0x778f4b
+colors.base0D = 0xeef415
+colors.base0E = 0xd36c9c
+colors.base0F = 0xa964bb
 
 -- Default font.
 if not font then

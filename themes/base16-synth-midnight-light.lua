@@ -1,6 +1,6 @@
--- Base16 Theme: Ocean
+-- Base16 Theme: Synth Midnight Terminal Light
 -- http://chriskempson.com/projects/base16/
--- Theme author: Chris Kempson (http://chriskempson.com)
+-- Theme author: Michaël Ball (http://github.com/michael-ball/)
 -- Template Repository: https://github.com/rgieseke/base16-textadept
 -- Template adapted from Textadept's default templates
 -- Copyright 2007-2020 Mitchell mitchell.att.foicica.com. MIT licensed.
@@ -8,22 +8,22 @@
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 -- Base16 colors
-colors.base00 = 0x3b302b
-colors.base01 = 0x463d34
-colors.base02 = 0x665b4f
-colors.base03 = 0x7e7365
-colors.base04 = 0xbaada7
-colors.base05 = 0xcec5c0
-colors.base06 = 0xe8e1df
-colors.base07 = 0xf5f1ef
-colors.base08 = 0x6a61bf
-colors.base09 = 0x7087d0
-colors.base0A = 0x8bcbeb
-colors.base0B = 0x8cbea3
-colors.base0C = 0xb4b596
-colors.base0D = 0xb3a18f
-colors.base0E = 0xad8eb4
-colors.base0F = 0x6779ab
+colors.base00 = 0xe0dfdd
+colors.base01 = 0xd2d1cf
+colors.base02 = 0xc4c3c1
+colors.base03 = 0xa6a5a3
+colors.base04 = 0x494847
+colors.base05 = 0x2a2928
+colors.base06 = 0x1c1b1a
+colors.base07 = 0x080605
+colors.base08 = 0x503bb5
+colors.base09 = 0x0d77ea
+colors.base0A = 0x64d3c9
+colors.base0B = 0x61ea06
+colors.base0C = 0xf9ff42
+colors.base0D = 0xffae03
+colors.base0E = 0xe25cea
+colors.base0F = 0x2063cd
 
 -- Default font.
 if not font then
