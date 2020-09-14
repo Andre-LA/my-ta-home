@@ -1,13 +1,1 @@
-size: true 1366 745
-view1: 1
-current_view: 1
-recent: /home/andre_la/Downloads/git/nelua-projs/nRotor/rotor/storage.nelua
-recent: /home/andre_la/Downloads/git/nelua-projs/nRotor/rotor/system_data.nelua
-recent: C:\msys64\home\andre-la\nelua-lang\nelua.sh
-recent: /home/andre_la/Downloads/git/nelua-projs/nelua-raytracing-card/main.nelua
-recent: /home/andre_la/Downloads/git/nelua-projs/nprof/nprof.nelua
-recent: /home/andre_la/Downloads/git/nelua-projs/baixada-game-jam-game/rotor/bitset_array.nelua
-recent: /media/andre_la/Arquivos/ta_home//init.lua
-recent: /home/andre_la/Downloads/git/nelua-projs/baixada-game-jam-game/docs/index.html
-recent: /home/andre_la/Downloads/git/nelua-projs/baixada-game-jam-game/docs/extra/shell.html
-recent: /home/andre_la/Downloads/git/nelua-projs/baixada-game-jam-game/rotor-quick/makers.nelua
+return {["buffers"]={[1]={["current_pos"]=459,["top_line"]=1,["filename"]="/home/dreunix/Downloads/git/lua-projs/lpages/lpages/element.lua",["anchor"]=459,["bookmarks"]={},},[2]={["current_pos"]=1,["top_line"]=1,["filename"]="/home/dreunix/Downloads/git/lua-projs/lpages/lpages/elements.lua",["anchor"]=1,["bookmarks"]={},},[3]={["current_pos"]=120,["top_line"]=1,["filename"]="/home/dreunix/Downloads/git/lua-projs/lpages/lpages/init.lua",["anchor"]=120,["bookmarks"]={},},[4]={["current_pos"]=1855,["top_line"]=43,["filename"]="/home/dreunix/Downloads/git/lua-projs/lpages/lpages/tag.lua",["anchor"]=1855,["bookmarks"]={},},[5]={["current_pos"]=286,["top_line"]=1,["filename"]="/home/dreunix/.textadept/init.lua",["anchor"]=286,["bookmarks"]={},},[6]={["current_pos"]=727,["top_line"]=1,["filename"]="[Message Buffer]",["anchor"]=727,["bookmarks"]={},},[7]={["current_pos"]=1,["top_line"]=1,["filename"]="/home/dreunix/.textadept/modules/ta-nelua/init.lua",["anchor"]=1,["bookmarks"]={},},},["views"]={[1]=6,["current"]=1,},["recent_files"]={},["ui"]={["maximized"]=false,["size"]={[1]=1000,[2]=637,},},}

@@ -1,6 +1,1 @@
-buffer: 82 82 0 /home/andre_la/Downloads/git/unity-projs/LunarLander/README.md
-bookmarks: 
-size: false 135 36
-view1: 1
-current_view: 1
-recent: /home/andre_la/Downloads/git/unity-projs/LunarLander/README.md
+return {["views"]={[1]=1,["current"]=1,},["recent_files"]={[1]="/home/dreunix/.textadept/.gitignore",},["buffers"]={[1]={["top_line"]=1,["bookmarks"]={},["current_pos"]=33,["filename"]="/home/dreunix/.textadept/.gitignore",["anchor"]=33,},},["ui"]={["size"]={[1]=80,[2]=24,},["maximized"]=false,},}

@@ -1,2 +1,3 @@
 sessions/*
 *.luac
+git-external/*
