@@ -72,9 +72,13 @@ local function nautilus()
   }
 end
 
+-- _M.lsp = require 'lsp'
+-- _M.lsp.log_rpc = true
+
 require 'ta-nelua'
 local function nelua(lexer)
   if lexer ~= 'nelua' then return end
+
   view.edge_column = 120
 end
 
@@ -117,11 +121,12 @@ nautilus()
 events.connect(events.LEXER_LOADED, function(lexer)
   andre_la()
 
-  --csharp(lexer)
-  --nelua(lexer)
-  --lua(lexer)
-  --markdown(lexer)
-  --luacheck(lexer)
+  csharp(lexer)
+  nelua(lexer)
+  lua(lexer)
+  markdown(lexer)
+  luacheck(lexer)
+  gdscript(lexer)
   --unity(lexer)
 end)
 --]=]
