@@ -3,6 +3,17 @@
 -- à NOITE, VOVÔ kOWALSKY VÊ O ÍMÃ CAIR NO PÉ DO PINGUIM QUEIXOSO E VOVÓ PÕE AÇÚCAR NO CHÁ DE TÂMARAS DO JABUTI FELIZ.
 
 -- [=[
+--[[ temas legais:
+claros:
+'base16-gruvbox-light-soft'
+'base16-dirtysea'
+
+escuros:
+'base16-snazzy'
+'base16-gigavolt'
+'base16-nova'
+'base16-tomorrow-night'
+--]]
 local TEMA_CLARO = true
 
 local my_defaults = {
@@ -11,7 +22,10 @@ local my_defaults = {
   max_line_len = 100,
   view_ws = view.WS_INVISIBLE,
   highlight_words = textadept.editing.HIGHLIGHT_SELECTED,
-  theme = TEMA_CLARO and 'base16-gruvbox-light-soft' or  'base16-bright',
+  --theme = TEMA_CLARO and 'base16-gruvbox-light-soft' or  'base16-snazzy',
+  theme = 'base16-dirtysea',
+  theme_props = {font = 'JetBrains Mono NL', size = 9},
+  --theme_props = {font = 'CozetteVector', size = 9}, -- best tiny pixel font
   --theme_props = {font = 'Terminus (TTF)' .. (WIN32 and ' for Windows' or ''), size = 12}, --
   --theme_props = {font = 'Unifont', size = 12},                 -- good pixel font
   --theme_props = {font = 'basis33', size = 12},                 -- good tiny pixel font
@@ -21,8 +35,7 @@ local my_defaults = {
   --theme_props = {font = 'unscii', size = 12},                  -- not render well
   --theme_props = {font = 'Luxi Mono', size = 8},                 --
   --theme_props = {font = 'Go Mono', size = 10},                 --
-  theme_props = {font = 'JetBrains Mono NL', size = 9},                 --
-  --theme_props = {font = 'CozetteVector', size = 9},            -- good tiny pixel font!
+  --theme_props = {font = 'JetBrains Mono NL', size = 9},                 --
   --theme_props = {font = '04b03', size = 6*ESCALA},        --
   --theme_props = {font = 'DejaVU Sans Mono', size = 11},        --
   --theme_props = {font = 'hack', size = 10},                    --
@@ -116,7 +129,12 @@ local function unity(lexer)
   end
 end
 
+local function project_view()
+  _M.projectView = require 'ta-projectView'
+end
+
 nautilus()
+project_view()
 
 events.connect(events.LEXER_LOADED, function(lexer)
   andre_la()
@@ -126,7 +144,6 @@ events.connect(events.LEXER_LOADED, function(lexer)
   lua(lexer)
   markdown(lexer)
   luacheck(lexer)
-  gdscript(lexer)
   --unity(lexer)
 end)
 --]=]
