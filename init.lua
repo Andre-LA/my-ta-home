@@ -24,6 +24,8 @@ local my_defaults = {
   highlight_words = textadept.editing.HIGHLIGHT_SELECTED,
   --theme = TEMA_CLARO and 'base16-gruvbox-light-soft' or  'base16-snazzy',
   theme = 'base16-dirtysea',
+  theme_props = {font = 'JetBrains Mono NL', size = 9},
+  --theme_props = {font = 'CozetteVector', size = 9}, -- best tiny pixel font
   --theme_props = {font = 'Terminus (TTF)' .. (WIN32 and ' for Windows' or ''), size = 12}, --
   --theme_props = {font = 'Unifont', size = 12},                 -- good pixel font
   --theme_props = {font = 'basis33', size = 12},                 -- good tiny pixel font
@@ -34,7 +36,6 @@ local my_defaults = {
   --theme_props = {font = 'Luxi Mono', size = 8},                 --
   --theme_props = {font = 'Go Mono', size = 10},                 --
   --theme_props = {font = 'JetBrains Mono NL', size = 9},                 --
-  theme_props = {font = 'JetBrains Mono NL', size = 9},            -- good tiny pixel font!
   --theme_props = {font = '04b03', size = 6*ESCALA},        --
   --theme_props = {font = 'DejaVU Sans Mono', size = 11},        --
   --theme_props = {font = 'hack', size = 10},                    --
