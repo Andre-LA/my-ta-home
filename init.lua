@@ -51,8 +51,8 @@ local function open_or_close_by_lexer(lexer, lang)
   return lexer == lang and 'open' or 'close'
 end
 
-local function andre_la()
-  if not CURSES then
+local function andre_la(is_lexer_reload)
+  if not CURSES and not is_lexer_reload then
     view:set_theme(my_defaults.theme, my_defaults.theme_props)
   end
 
@@ -136,8 +136,10 @@ end
 nautilus()
 project_view()
 
+andre_la(false)
+
 events.connect(events.LEXER_LOADED, function(lexer)
-  andre_la()
+  andre_la(true)
 
   csharp(lexer)
   nelua(lexer)
